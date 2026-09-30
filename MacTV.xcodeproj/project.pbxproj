@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0073F8BA649F352D63EB91B2 /* ShortcutLayouts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21DB5BC969A63058BECEFC52 /* ShortcutLayouts.swift */; };
+		0427F0FE4F3C0789DD952D2A /* BrandIcons.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFD46DED8D300256E8D9CF73 /* BrandIcons.xcassets */; };
+		074F10B309E1543B982B6C00 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9972CBD4630BAB7BB4CC9A /* RootView.swift */; };
+		0CD905E9304757D9CF5D7476 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EE498EDDEF1237A9B7E9D5 /* HomeView.swift */; };
+		1545FEB199D6732F30A96BDA /* MusicPlaybackController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B60568B78F5680A1E602F9 /* MusicPlaybackController.swift */; };
+		189CE151FB02BBF5B7F4AFC6 /* WindowStageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD71D0A87D05A367920E2DDC /* WindowStageManager.swift */; };
+		1B5E6CCC034E8537B6B35CC9 /* AppModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6248B9F038FA016E79C881F /* AppModels.swift */; };
+		3B70180F7BD1E76AA61A1EBE /* NavigationMathTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4174897AD483CAF3809E42 /* NavigationMathTests.swift */; };
+		419FD507B4506CBE48E81B5D /* ApplicationServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F15D6464757EAF9B29B3405 /* ApplicationServices.swift */; };
+		549D6B51FACCFDB469816159 /* DynamicBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20902DA21F03E91838D4B90F /* DynamicBackgroundView.swift */; };
+		65C1FF4565C0A80BD4A3FAD5 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514B39B86EB4BBC2C2FF50DE /* Persistence.swift */; };
+		6CBB8CD33B2F05543E70AF2E /* ProfileAppearanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 261E251374508A5BAC231520 /* ProfileAppearanceView.swift */; };
+		7D2C16683EDD689DB3BEA082 /* AppStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7001CA046DBA8570EBB39F34 /* AppStore.swift */; };
+		8578A25F01795690A60F9A20 /* ShortcutIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B017DEBEC2B51137376BB6 /* ShortcutIconView.swift */; };
+		8E52E65F13791B53AFF786CC /* MacTVApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75784B2A1AFE645161E53E5 /* MacTVApp.swift */; };
+		A96A49F6B989FA2B6B52CE19 /* AppLibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB0BA59EA7B32BE7AC07B2D /* AppLibraryView.swift */; };
+		B7893160423A4A899EDD7F54 /* PersistenceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390C2485B0EB8D107D0CD14B /* PersistenceTests.swift */; };
+		C59314A1426A9B9078D98928 /* NavigationMath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40122A7E1FEC2022204B467D /* NavigationMath.swift */; };
+		D8C3067614B4179D251B0DB4 /* BrandLogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6470309716AAE8E7E4B0497 /* BrandLogoView.swift */; };
+		DCBBBABF4063D0CCFB8EFD6E /* FloatingAppDock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17657E4BC05EB2B807FDFD6B /* FloatingAppDock.swift */; };
+		FD2537EFA5F456BE50007C57 /* EmbeddedBrowserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41F3A7FF3B4A0A6199E6368 /* EmbeddedBrowserView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5AF4F3B1E2E8D1D66D10BDF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 06CBCE74A5F05B4CD7BDD35C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94F4200560787830098FA4ED;
+			remoteInfo = MacTV;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		17657E4BC05EB2B807FDFD6B /* FloatingAppDock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingAppDock.swift; sourceTree = "<group>"; };
+		1D8B401132948C5C385EBA2F /* MacTVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MacTVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		20902DA21F03E91838D4B90F /* DynamicBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicBackgroundView.swift; sourceTree = "<group>"; };
+		21DB5BC969A63058BECEFC52 /* ShortcutLayouts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortcutLayouts.swift; sourceTree = "<group>"; };
+		261E251374508A5BAC231520 /* ProfileAppearanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileAppearanceView.swift; sourceTree = "<group>"; };
+		2F15D6464757EAF9B29B3405 /* ApplicationServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationServices.swift; sourceTree = "<group>"; };
+		390C2485B0EB8D107D0CD14B /* PersistenceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceTests.swift; sourceTree = "<group>"; };
+		40122A7E1FEC2022204B467D /* NavigationMath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationMath.swift; sourceTree = "<group>"; };
+		514B39B86EB4BBC2C2FF50DE /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		7001CA046DBA8570EBB39F34 /* AppStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStore.swift; sourceTree = "<group>"; };
+		7DB0BA59EA7B32BE7AC07B2D /* AppLibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLibraryView.swift; sourceTree = "<group>"; };
+		9C9972CBD4630BAB7BB4CC9A /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		A5EE498EDDEF1237A9B7E9D5 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		AFD46DED8D300256E8D9CF73 /* BrandIcons.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = BrandIcons.xcassets; sourceTree = "<group>"; };
+		B75784B2A1AFE645161E53E5 /* MacTVApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacTVApp.swift; sourceTree = "<group>"; };
+		B7B60568B78F5680A1E602F9 /* MusicPlaybackController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlaybackController.swift; sourceTree = "<group>"; };
+		B9B017DEBEC2B51137376BB6 /* ShortcutIconView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortcutIconView.swift; sourceTree = "<group>"; };
+		C2B2F3A2593E5D4FB7CA5E1B /* MacTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6470309716AAE8E7E4B0497 /* BrandLogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandLogoView.swift; sourceTree = "<group>"; };
+		D6248B9F038FA016E79C881F /* AppModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModels.swift; sourceTree = "<group>"; };
+		DD71D0A87D05A367920E2DDC /* WindowStageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowStageManager.swift; sourceTree = "<group>"; };
+		F41F3A7FF3B4A0A6199E6368 /* EmbeddedBrowserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmbeddedBrowserView.swift; sourceTree = "<group>"; };
+		FB4174897AD483CAF3809E42 /* NavigationMathTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationMathTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		18D1A1A7ACC0B10773AEE190 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				7DB0BA59EA7B32BE7AC07B2D /* AppLibraryView.swift */,
+				261E251374508A5BAC231520 /* ProfileAppearanceView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		46AC48B3E177441253972554 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D6248B9F038FA016E79C881F /* AppModels.swift */,
+				40122A7E1FEC2022204B467D /* NavigationMath.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4F0284882AB2259AAB427F09 /* MacTV */ = {
+			isa = PBXGroup;
+			children = (
+				B75784B2A1AFE645161E53E5 /* MacTVApp.swift */,
+				EAD93D02EF9A1D2E6C15D4BC /* AppShell */,
+				F87CF36B768FC87973E86495 /* Home */,
+				46AC48B3E177441253972554 /* Models */,
+				8999D2E9E4F557AF3386280A /* Resources */,
+				85F8AE9D98F9B0B8D269F794 /* Services */,
+				18D1A1A7ACC0B10773AEE190 /* Settings */,
+				AC7F16B3BA34F1B1FD7F65A6 /* SharedUI */,
+			);
+			name = MacTV;
+			path = Sources/MacTV;
+			sourceTree = "<group>";
+		};
+		55E95D7CBBA41F723D0C50A1 = {
+			isa = PBXGroup;
+			children = (
+				4F0284882AB2259AAB427F09 /* MacTV */,
+				DEB720D35F3BF5369581EE6B /* MacTVTests */,
+				E8E8A169EBE612A70ABD9D84 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		85F8AE9D98F9B0B8D269F794 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				2F15D6464757EAF9B29B3405 /* ApplicationServices.swift */,
+				B7B60568B78F5680A1E602F9 /* MusicPlaybackController.swift */,
+				514B39B86EB4BBC2C2FF50DE /* Persistence.swift */,
+				DD71D0A87D05A367920E2DDC /* WindowStageManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		8999D2E9E4F557AF3386280A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AFD46DED8D300256E8D9CF73 /* BrandIcons.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		AC7F16B3BA34F1B1FD7F65A6 /* SharedUI */ = {
+			isa = PBXGroup;
+			children = (
+				C6470309716AAE8E7E4B0497 /* BrandLogoView.swift */,
+				20902DA21F03E91838D4B90F /* DynamicBackgroundView.swift */,
+				17657E4BC05EB2B807FDFD6B /* FloatingAppDock.swift */,
+				B9B017DEBEC2B51137376BB6 /* ShortcutIconView.swift */,
+			);
+			path = SharedUI;
+			sourceTree = "<group>";
+		};
+		DEB720D35F3BF5369581EE6B /* MacTVTests */ = {
+			isa = PBXGroup;
+			children = (
+				FB4174897AD483CAF3809E42 /* NavigationMathTests.swift */,
+				390C2485B0EB8D107D0CD14B /* PersistenceTests.swift */,
+			);
+			name = MacTVTests;
+			path = Tests/MacTVTests;
+			sourceTree = "<group>";
+		};
+		E8E8A169EBE612A70ABD9D84 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2B2F3A2593E5D4FB7CA5E1B /* MacTV.app */,
+				1D8B401132948C5C385EBA2F /* MacTVTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EAD93D02EF9A1D2E6C15D4BC /* AppShell */ = {
+			isa = PBXGroup;
+			children = (
+				7001CA046DBA8570EBB39F34 /* AppStore.swift */,
+				9C9972CBD4630BAB7BB4CC9A /* RootView.swift */,
+			);
+			path = AppShell;
+			sourceTree = "<group>";
+		};
+		F87CF36B768FC87973E86495 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				F41F3A7FF3B4A0A6199E6368 /* EmbeddedBrowserView.swift */,
+				A5EE498EDDEF1237A9B7E9D5 /* HomeView.swift */,
+				21DB5BC969A63058BECEFC52 /* ShortcutLayouts.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5C4654693823C2476B92EC1B /* MacTVTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E88EA6EF1878FE85AC97BBA /* Build configuration list for PBXNativeTarget "MacTVTests" */;
+			buildPhases = (
+				F51E097F1AD56748295F3A80 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				686AB8A5F5B4D1E16BC9E695 /* PBXTargetDependency */,
+			);
+			name = MacTVTests;
+			packageProductDependencies = (
+			);
+			productName = MacTVTests;
+			productReference = 1D8B401132948C5C385EBA2F /* MacTVTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		94F4200560787830098FA4ED /* MacTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E25D900941BAF91C8E784BB /* Build configuration list for PBXNativeTarget "MacTV" */;
+			buildPhases = (
+				E8C9E2B6596D929CC4E48349 /* Sources */,
+				4AA16245E5CC5CB3DAFB74D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MacTV;
+			packageProductDependencies = (
+			);
+			productName = MacTV;
+			productReference = C2B2F3A2593E5D4FB7CA5E1B /* MacTV.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		06CBCE74A5F05B4CD7BDD35C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+				};
+			};
+			buildConfigurationList = A5E98FABA11D05113E2CEE56 /* Build configuration list for PBXProject "MacTV" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 55E95D7CBBA41F723D0C50A1;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = E8E8A169EBE612A70ABD9D84 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				94F4200560787830098FA4ED /* MacTV */,
+				5C4654693823C2476B92EC1B /* MacTVTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4AA16245E5CC5CB3DAFB74D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0427F0FE4F3C0789DD952D2A /* BrandIcons.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E8C9E2B6596D929CC4E48349 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A96A49F6B989FA2B6B52CE19 /* AppLibraryView.swift in Sources */,
+				1B5E6CCC034E8537B6B35CC9 /* AppModels.swift in Sources */,
+				7D2C16683EDD689DB3BEA082 /* AppStore.swift in Sources */,
+				419FD507B4506CBE48E81B5D /* ApplicationServices.swift in Sources */,
+				D8C3067614B4179D251B0DB4 /* BrandLogoView.swift in Sources */,
+				549D6B51FACCFDB469816159 /* DynamicBackgroundView.swift in Sources */,
+				FD2537EFA5F456BE50007C57 /* EmbeddedBrowserView.swift in Sources */,
+				DCBBBABF4063D0CCFB8EFD6E /* FloatingAppDock.swift in Sources */,
+				0CD905E9304757D9CF5D7476 /* HomeView.swift in Sources */,
+				8E52E65F13791B53AFF786CC /* MacTVApp.swift in Sources */,
+				1545FEB199D6732F30A96BDA /* MusicPlaybackController.swift in Sources */,
+				C59314A1426A9B9078D98928 /* NavigationMath.swift in Sources */,
+				65C1FF4565C0A80BD4A3FAD5 /* Persistence.swift in Sources */,
+				6CBB8CD33B2F05543E70AF2E /* ProfileAppearanceView.swift in Sources */,
+				074F10B309E1543B982B6C00 /* RootView.swift in Sources */,
+				8578A25F01795690A60F9A20 /* ShortcutIconView.swift in Sources */,
+				0073F8BA649F352D63EB91B2 /* ShortcutLayouts.swift in Sources */,
+				189CE151FB02BBF5B7F4AFC6 /* WindowStageManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F51E097F1AD56748295F3A80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B70180F7BD1E76AA61A1EBE /* NavigationMathTests.swift in Sources */,
+				B7893160423A4A899EDD7F54 /* PersistenceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		686AB8A5F5B4D1E16BC9E695 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94F4200560787830098FA4ED /* MacTV */;
+			targetProxy = 5AF4F3B1E2E8D1D66D10BDF0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2CC2B07C113D2C1B54EE5865 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mactv.app;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		47DC7BC41C11407B46758008 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Mac TV";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "Mac TV";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		5A107EF31AEA850F5C5F63F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Mac TV";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "Mac TV";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		9ED411EFDE88E996C42B9415 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mactv.tests;
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MacTV.app/Contents/MacOS/MacTV";
+			};
+			name = Debug;
+		};
+		9F166121C31C964E2921C74B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mactv.app;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E7A4E22EED88F606DB38AED6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mactv.tests;
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MacTV.app/Contents/MacOS/MacTV";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E25D900941BAF91C8E784BB /* Build configuration list for PBXNativeTarget "MacTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CC2B07C113D2C1B54EE5865 /* Debug */,
+				9F166121C31C964E2921C74B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		1E88EA6EF1878FE85AC97BBA /* Build configuration list for PBXNativeTarget "MacTVTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9ED411EFDE88E996C42B9415 /* Debug */,
+				E7A4E22EED88F606DB38AED6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A5E98FABA11D05113E2CEE56 /* Build configuration list for PBXProject "MacTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A107EF31AEA850F5C5F63F2 /* Debug */,
+				47DC7BC41C11407B46758008 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 06CBCE74A5F05B4CD7BDD35C /* Project object */;
+}
